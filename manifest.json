@@ -1,0 +1,27 @@
+{
+  "background": {
+    "persistent": false,
+    "scripts": [ "momentum.js" ]
+  },
+  "browser_action": {
+    "default_title": "Developer dashboard"
+  },
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+  },
+  "description": "Developer dashboard.",
+  "icons": {
+    "128": "icon-128.png",
+    "16": "icon-16.png"
+  },
+  "permissions": [
+    "activeTab",
+	"unlimitedStorage",
+    "https://ajax.googleapis.com/"
+  ],
+  "manifest_version": 2,
+  "name": "Developer dashboard",
+  "offline_enabled": true,
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0"
+}
